@@ -30,6 +30,8 @@ numberInput.addEventListener('input', () => {
 
                 factText.textContent = data;
 
+                numberSpan.textContent = number;
+
             }
         })
         .catch(err => console.log(err));
